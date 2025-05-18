@@ -1,0 +1,49 @@
+.card {
+    border: 2px solid #c3c3c3;
+    padding: 1rem;
+    border-radius: 1rem;
+    text-align: center;
+  background: linear-gradient(to right, var(--cardBg), var(--cardBgShade));
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  .image {
+    width: 15rem;
+    height: 15rem;
+    object-fit: contain;
+    margin-bottom: 0.5rem;
+  }
+  
+  .placeholder {
+    border: 0.125rem dashed #aaa;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    text-align: center;
+    color: #888888;  
+  }
+  
+  .removeBtn {
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #ff5555;
+    color: #fff;
+    border: none;
+    border-radius: 1rem;
+    font-size: 1rem;
+
+  }
+  
+  .removeBtn:hover {
+    background-color: #e64444;
+  }
+  
+  .loser {
+    opacity: 0.2;
+  }
+  .logoImg {
+    height: 3rem;
+  }
+  

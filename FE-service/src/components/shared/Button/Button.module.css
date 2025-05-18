@@ -1,0 +1,18 @@
+.btn {
+  background-color: var(--purple);
+  color: var(--textButton);
+  border-radius: 0.5rem;
+  font-size: 0.9rem;
+  text-decoration: none;
+  font-weight: 600;
+  width: 6.625rem;
+  height: 2.375rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn:hover {
+  background-color: var(--lightRed);
+  color: var(--textButton);
+}
