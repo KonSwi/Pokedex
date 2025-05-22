@@ -1,0 +1,51 @@
+.arenaContainer {
+  padding: 1rem;
+  text-align: center;
+}
+
+.arenaCardsWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+}
+
+.fightButton {
+  height: 3.125rem;
+  padding: 0 1.25rem;
+  font-weight: bold;
+  font-size: 1.1rem;
+  border-radius: 0.625rem;
+  border: none;
+  cursor: pointer;
+  background-color: #ff3e3e;
+  color: #fff;
+}
+
+.fightButton:disabled {
+  background-color: #c7c7c7;
+  cursor: not-allowed;
+}
+
+.fightResult {
+  margin-top: 2rem;
+}
+.fightResultMessage {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.resetArena {
+  font-size: 1.5rem;
+  background-color: #ff3e3e;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  margin-top: 2rem;
+}
+@media (max-width: 768px) {
+  .arenaCardsWrapper {
+    flex-direction: column;
+  }
+}

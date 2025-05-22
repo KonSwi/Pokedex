@@ -1,0 +1,34 @@
+:root {
+  font-family: system-ui, Helvetica, Arial, sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+  font-weight: 400;
+  --purple: #6e50f2;
+  --lightRed: #a58787;
+}
+#content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 120rem;
+}
+body {
+  display: flex;
+  justify-content: center;
+  background-color: #d6f3ce;
+  --textButton: #f0f0f0;
+  --navbarBg: #92e77b;
+  --cardBg: #ff7e5f;
+  --cardBgShade: #feb47b;
+  --srcBgColor: #fff;
+}
+
+body.dark {
+  background-color: #1e1e1e;
+  color: #aaaaaa;
+  --textButton: #1e1e1e;
+  --navbarBg: #2e2e2e;
+  --cardBg: #2a2a2a;
+  --cardBgShade: #3b3b3b;
+  --srcBgColor: #c4bebe;
+}
