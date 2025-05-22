@@ -7,7 +7,12 @@ export const saveUser = (user) => {
 
 export const getUser = () => {
   const user = localStorage.getItem(userKey);
-  return user ? JSON.parse(user) : null;
+  try {
+    return user ? JSON.parse(user) : null;
+  } catch (error) {
+    localStorage.removeItem(userKey);
+    return null;
+  }
 };
 
 export const removeUser = () => {

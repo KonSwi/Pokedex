@@ -28,6 +28,13 @@ Stworzenie aplikacji Pokédex, jako projekt zaliczeniowy modułu 2. kursu Akadem
 
    npm run reset
 
+## UWAGA ## 
+Jeśli widzisz błąd „Unexpected token” wykonaj następujące kroki: 
+- otwórz w przeglądarce DevTools (F12),
+- wejdź w "Application" → "LocalStorage" → "http://localhost:5173",
+- usuń wpis "loggedUser".
+
+
 # Funkcjonalności
 
 - Rejestracja i logowanie użytkownika
